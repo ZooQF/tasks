@@ -1,0 +1,183 @@
+*{margin: 0px;padding: 0px;}
+body{
+    background-color: #AAAAAA;
+}
+article,section,aside{
+    background-color: white;
+    margin:22px;
+    padding:30px;
+}
+p {
+    line-height: 28px;
+    font-weight: 800;
+}
+
+/*导航区*/
+header{
+    background-color: #2e2e2e;
+    height:60px;
+}
+header > .logo > img{
+    width: 120px;
+    height: 40px;
+    float: left;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+header > nav {
+    float: right;
+    margin-top: 20px;
+}
+header > nav > ul > li {
+    float: left;
+}
+header > nav > ul > li > a {
+    font-size: small;
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+/*文本区*/
+article > h3,h4{
+    color: #888888;
+}
+article > h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+article > h4{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+article > img {
+    width: 200px;
+    height: 200px;
+}
+article > ul {
+    list-style-type: none;
+}
+article > ul > li {
+    margin-top: 10px;
+}
+
+/*图片展示区*/
+.photo > h2 {
+    margin-bottom: 30px;
+}
+.photo > .show{
+    margin-left: 50px;
+}
+.photo > .show > blockquote{
+    border:2px solid #888888;
+    width: 220px;
+    height:250px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.photo > .show > blockquote > img {
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+/*表格区*/
+.list > h2 {
+    margin-bottom: 10px;
+}
+.list > h3,h4{
+    color: #888888;
+}
+.list > h3 {
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.list > h4{
+    font-size: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.list > ol {
+    margin-left: 40px;
+    margin-bottom: 20px;
+}
+.list > ol > li {
+    font-weight: 800;
+}
+.list > table {
+     border-right:1px solid #888888;
+     border-bottom:1px solid #888888;
+     width: 100%;
+}
+.list > table > p {
+    font-weight: 800;
+}
+.list table tr:last-child{
+    background-color: #AAAAAA;
+}
+.list table tr th {
+    color: white;
+    background-color: #2e2e2e;
+}
+.list table tr td {
+    font-weight: 800;
+    border-left:1px solid #888888;
+    border-top:1px solid #888888;
+}
+
+/*边栏区*/
+aside > h2 {
+    margin-bottom: 20px;
+    border-left: 4px solid #AAAAAA;
+}
+aside form {
+    display: table;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.tablerow{
+    display: table-row;
+}
+div.tablerow p{
+    display: table-cell;
+    padding: 8px;
+}
+div.tablerow p:first-child{
+    text-align: right;
+}
+p.lighter{
+    color:gray;
+
+}
+form textarea{
+    width: 500px;
+    height:100px;
+}
+
+div.commit input{
+    color: white;
+    background-color: #003C9D;
+    width:1200px;
+    height:40px;
+    margin:0 auto;
+    text-align: center;
+    border-radius: 15px;
+    font-size:18px;
+}
+
+/*页脚区*/
+footer {
+    background-color: #2e2e2e;
+    height: 60px;
+}
+footer > p{
+    line-height: 60px;
+    color: white;
+    text-align: center;
+}
