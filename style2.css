@@ -161,6 +161,7 @@ form textarea{
 }
 
 div.commit input{
+    display: block;
     color: white;
     background-color: #003C9D;
     width:1200px;
