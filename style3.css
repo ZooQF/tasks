@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+img {
+    width:80px;
+    height: 80px;
+}
+
+body{
+    background-color: #eee;
+    border:1px solid #999;
+    padding: 20px;
+    margin: 20px;
+    overflow: auto;
+}
+.all{
+    overflow: auto;
+}
+
+/*左边栏区*/
+.logo {
+    width: 160px;
+    padding:19px;
+    border: 1px solid #999;
+    float: left;
+    margin: 0px;
+}
+.logo img{
+    float: left;
+}
+
+
+
+
+/*主体区域*/
+main {
+    margin-left: 220px;
+    margin-right: 140px;
+    border: 1px solid #999;
+}
+
+/*右边栏区*/
+aside {
+    width: 80px;
+    border: 1px solid #999;
+    float: right;
+    padding: 20px;
+    overflow: auto;
+}
+aside img{
+    float: left;
+    margin-bottom: 10px;
+}
+aside::after{
+    clear: both;
+}
