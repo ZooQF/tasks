@@ -1,0 +1,520 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.all {
+    width: 1500px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+/*导航栏部分*/
+header {
+    height: 40px;
+    border-bottom: 2px solid #000000;
+}
+header .logo{
+    float: left;
+    margin-left: 30px;
+}
+header .logo img {
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+}
+header .logo p {
+    display: inline-block;
+    position: relative;
+    bottom: 12px;
+}
+header ul {
+    float: right;
+    margin-top: 10px;
+}
+header ul li{
+
+    float: left;
+    margin-right: 25px;
+    list-style: none;
+}
+header ul li a {
+    font-size: 5px;
+    color: #938e8c;
+    text-decoration: none;
+}
+header ul li a:hover,header ul li a:active {
+    padding-bottom: 5px;
+    border-bottom: 3px solid #d45d5c;
+}
+header ul li:last-child a{
+    color: crimson;
+    padding-bottom: 0px;
+}
+header ul li a img{
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+/*大图部分*/
+.try {
+    background-image: url("http://p1.bqimg.com/586645/fb1321630599b9ec.jpg");
+    height: 600px;
+}
+.try .time {
+    width: 500px;
+    position: relative;
+    top: 220px;
+    left: 100px;
+}
+.try .time p{
+    color: white;
+}
+.try .time p:first-of-type{
+    font-size: 40px;
+    position: relative;
+    right: 95px;
+    margin-bottom: 20px;
+}
+.try .time p:last-of-type{
+    font-size: 15px;
+    margin-bottom: 40px;
+}
+.try .time input{
+    width: 200px;
+    height: 30px;
+    color: white;
+    background-color: #e55d5c;
+    text-align: center;
+    border:none;
+    margin-right: 170px;
+}
+
+
+/*团队介绍部分*/
+.intro {
+    text-align: center;
+    margin-top: 40px;
+}
+.intro div {
+    display: inline-block;
+    width: 350px;
+}
+.intro div img {
+    margin-bottom: 40px;
+}
+.intro div p{
+    font-size: 13px;
+    width: 350px;
+    height: 50px;
+    color: #767777;
+}
+.circle p,.flag p,.flower p {
+    border-right: 2px solid #999999;
+}
+
+
+/*了解部分*/
+.know {
+    margin-top: 100px;
+    text-align: center;
+}
+.know img {
+    width: 120px;
+    height: 120px;
+}
+.know p {
+    font-size: 40px;
+    color: #938e8c;
+}
+
+
+/*选择城市部分*/
+.city {
+    margin-top: 100px;
+    height: 400px;;
+    background-image: url("http://p1.bpimg.com/586645/f42d153597f73f34.jpg");
+}
+.city h1 {
+    color: white;
+    font-size: 40px;
+    padding-top: 60px;
+}
+.city div:first-of-type {
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    margin: 10px auto 0px auto;
+}
+.city p{
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+.city h1,.city p{
+    text-align: center;
+}
+.where {
+    margin-top: 80px;
+}
+.where select {
+    width: 240px;
+    height: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    border: 2px solid #e55d5c;
+}
+.where input {
+    width: 240px;
+    height: 40px;
+    color: white;
+    background-color: #e55d5c;
+    border:none;
+}
+
+
+/*活动部分*/
+.activity {
+    margin-top: 120px;
+}
+.activity div{
+    display: inline-block;
+    width: 360px;
+    height: 520px;
+    border: 1px solid #cccccc;
+}
+.activity div img {
+    margin-top: 20px;
+    width: 240px;
+    height: 400px;
+}
+.activity div .act {
+    width: 280px;
+    height: 75px;
+    border: none;
+}
+.activity div .act h2 {
+    margin-top: 20px;
+    font-size: 15px;
+}
+.activity div .act p{
+    color: #767777;
+    margin-top: 10px;
+    font-size: 12px;
+}
+.activity div:hover{
+    border: 2px solid #888888;
+}
+.activity div:hover .act{
+    border-bottom: 1px solid #cccccc;
+    position: relative;
+    bottom: 420px;
+}
+.activity div:hover img {
+    position: relative;
+    top: 80px;
+}
+.activity div:hover .act:hover {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid #cccccc;
+}
+.activity div:hover .act h2{
+    letter-spacing: 40px;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+/*广告部分*/
+.newworld {
+    margin-top: 120px;
+}
+.newworld .picture{
+    background-image: url("http://p1.bqimg.com/586645/4ca8e59e3ccdea5e.jpg");
+    width: 1000px;
+    height: 600px;
+}
+.newworld .picture .new{
+    position: relative;
+    top: 200px;
+}
+.newworld .picture .new h1{
+    color: white;
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+}
+.newworld .picture .new h2 {
+    color: white;
+    font-size: 100px;
+}
+.newworld .picture .new h3 {
+    color: white;
+    font-size: 18px;
+}
+.newworld .picture .new p {
+    color: white;
+    font-size: 18px;
+}
+.page {
+    float: right;
+}
+.page div{
+    width: 500px;
+    height: 600px;
+    padding: 100px 50px 50px 50px;
+}
+.page div h1{
+    font-size: 40px;
+    color: #2e2e2e;
+    letter-spacing: 10px;
+}
+.page div p {
+    margin-top: 40px;
+    font-size: 15px;
+    line-height: 40px;
+    color: #AAAAAA;
+}
+.page div h1 span {
+    color: #d45d5c;
+}
+.page div input {
+    width: 120px;
+    height: 40px;
+    background-color: white;
+    border: 1px solid #d45d5c;
+    color: #d45d5c;
+    margin-top: 60px;
+}
+.page .first ul {
+    margin-left: 155px;
+    margin-top: 40px;
+}
+.page  .first ul li {
+    float: left;
+    list-style: circle;
+    margin-left: 30px;
+    font-size: 40px;
+}
+.page  .first ul li:first-child {
+    color: #888888;
+    list-style: disc;
+}
+
+
+/*补充部分*/
+.more {
+}
+.left,.center,.right {
+    width: 500px;
+    height: 600px;;
+    float: left;
+}
+.left {
+    background-color: #e55d5c;
+    color: white;
+}
+.left p{
+    margin-top: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+.left div {
+    width: 50px;
+    height: 2px;
+    background-color: white;
+    margin: 20px auto;
+}
+.left input {
+    color:white;
+    width: 160px;
+    height: 40px;
+    background-color: #e55d5c;
+    border: 1px solid white;
+}
+.center p{
+    margin-top: 200px;
+    font-size: 20px;
+    text-align: center;
+}
+.center div {
+    width: 50px;
+    height: 2px;
+    background-color: #cccccc;
+    margin: 20px auto;
+}
+.center input {
+    color:#e55d5c;
+    width: 160px;
+    height: 40px;
+    border: 1px solid #e55d5c;
+    background-color: white;
+}
+.right {
+    background-image: url("http://i1.piimg.com/586645/7f436056b31932ab.jpg");
+    background-repeat: no-repeat;
+}
+
+
+/*加入我们部分*/
+.enter {
+    position: relative;
+    top: 100px;
+}
+.enter h1{
+    font-size: 20px;
+}
+.enter div {
+    width: 50px;
+    height: 2px;
+    background-color: #e55d5c;
+    margin: 20px auto;
+}
+.enter p {
+    color: #cccccc;
+    margin-bottom: 100px;
+}
+
+
+/*填表部分*/
+.sheet {
+    margin-top: 200px;
+}
+.word {
+    width: 500px;
+    float: left;
+    padding-left: 100px;
+}
+.word section{
+    margin-bottom: 50px;
+}
+.word section h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.word section > p {
+    color: #888888;
+    font-size: 15px;
+}
+.word section details {
+    text-align: right;
+    color: #888888;
+}
+.word section details summary:hover,.word section details summary:active{
+    border: none;
+    outline:none;
+}
+
+.word section h2,.word section > p {
+    text-align: left;
+}
+form {
+    display: table;
+    margin: 0 auto;
+}
+.table-row {
+    display: table-row;
+}
+.table-row>div {
+    display: table-cell;
+    width: 400px;
+    height: 50px;
+}
+.table-row>div p {
+    float: left;
+}
+.table-row>div input {
+    float: right;
+    width: 200px;
+}
+.table-row>div:last-child {
+    position: relative;
+    left: 20px;
+}
+.table-row>div p,.table-row>div input{
+    display: inline-block;
+}
+form div.table-row:last-child div input{
+    width: 400px;
+    height: 200px;
+    position: relative;
+    bottom: 20px;
+    left: 150px;
+}
+.sheet>input {
+    font-size: 20px;
+    width: 160px;
+    height: 40px;
+    margin-left: 180px;
+    border: 1px solid #cccccc;
+}
+
+
+/*联系方式*/
+.contact {
+    margin-top: 200px;
+    height: 300px;
+    background-color: #2e2e2e;
+}
+.contact h1 {
+    font-size: 25px;
+    padding-top: 40px;
+}
+.contact p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contact h1,.contact p {
+    color: white;
+}
+.contact input {
+    display: inline-block;
+}
+.contact input:first-of-type {
+    width: 300px;
+    height: 50px;;
+}
+.contact input:last-of-type{
+    font-size: 20px;
+    height: 50px;
+    width: 100px;
+    background-color: #5f5f5f;
+    color: white;
+    border: none;
+    position: relative;
+    top: 3px;
+    right: 4px;
+}
+.contact div {
+    margin-top: 20px;
+ }
+.contact div img{
+    width: 50px;
+    height: 50px;
+}
+
+
+/*底栏部分*/
+footer{
+    height: 60px;
+    background-color: #1e1e1e;
+}
+footer p {
+    font-size: 15px;
+    color: white;
+}
+footer p:first-child {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+footer p:last-child a{
+    float: right;
+    margin-right: 40px;
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+}
