@@ -517,6 +517,9 @@ form>.tablerow>div{
     width: 50px;
     height: 58px;
 }
+.calendar table tr td:hover{
+    border:1px solid #d2994f;
+}
 .calendar table tr td span{
     color: #c9161d;
 }
